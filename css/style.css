@@ -1,12 +1,14 @@
 body {
-   background-color: green;
+  background-color: lightblue;
 }
 
 h1 {
-color: white;
-text-align: center;
+  color: lightgreen;
+  text-align: center;
 }
+
 p {
-  font-family: ariel;
-  font-size: 30px;
+  font-family: verdana;
+  font-size: 20px;
 }
+
