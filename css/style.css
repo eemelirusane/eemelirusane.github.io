@@ -11,7 +11,7 @@ p {
   font-family: verdana;
   font-size: 30px;
 }
-p.one {
+p. {
   border-style: solid;
   border-color: violet;
 }
