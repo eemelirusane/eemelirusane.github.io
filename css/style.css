@@ -2,11 +2,11 @@ body {
    background-color: blue;
 }
 
-<h2> { css lisäys? </h2>
+h2 {
 color: white;
 text-align: center;
 }
 p {
   font-family: ariel;
-  font-size 30px;
+  font-size: 30px;
 }
