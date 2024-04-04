@@ -1,0 +1,132 @@
+body{
+background-color:#987554;
+background-image: url("img/taustakuva.jpg")
+}
+
+
+.header-main{
+	width:100%;
+	height:60px;
+	background-color: maroon;
+}
+
+.links ul{
+	width:fit-content;
+	height: 100%;
+	list-style: none;
+	margin-left: 30px;	
+}
+
+.links ul li{
+	display:inline;
+	float:left;
+}
+
+.links ul li a{
+	padding: 0 15px ;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 60px;
+	
+}
+p {
+	color: white;
+	font-size: 25px;
+	font-weight: normal;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-size:500%;
+	font-weight: bold;
+	font-family: "Times New Roman", Arial, sans-serif;
+	text-align: center;
+}
+h2{
+	color: white;
+	font-size:300%;
+	font-weight: normal;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+ul {
+	color:white;
+	font-size:200%;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-align:center;
+}
+
+ol{
+	color: white;
+	font-size: 200%;
+	font-weight: normal;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	list-style-type: none;
+}
+dl{
+	color: white;
+	font-size: 200%;
+	font-weight: normal;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+
+		
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+
+}
+
+dl{
+	color: white;
+	font-size: 150%;
+	font-weight: normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ol{
+	color: white;
+	font-size:150%;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+dl{
+	color: white;
+	font-size:150%;
+	font-weight: normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: maroon;
+   text-align: center;
+	color: white
+}
+a{
+color: orange;
+text-decoration: underline;
+}
+
+a:hover, a:focus{
+color: yellow
+}
+
+blockquote{
+	color: lavenderblush;
+	font-size: 150%;
+	font-weight: normal;
+	font-family: italic;	
+}
+
+
