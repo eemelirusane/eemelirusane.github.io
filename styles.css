@@ -104,15 +104,7 @@ dl{
 	font-weight: normal;
 	font-family:Arial, Helvetica, sans-serif;
 }
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: maroon;
-   text-align: center;
-	color: white
-}
+
 a{
 color: orange;
 text-decoration: underline;
