@@ -19,7 +19,7 @@ background-image: url("img/taustakuva.jpg")
 
 .links ul li{
 	display:inline;
-	margin-left: 300px;
+	float: right;
 }
 
 .links ul li a{
