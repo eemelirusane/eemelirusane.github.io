@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniproject 5</title>
+</head>
+<body>
+    <h1>miniproject5</h1>
+
+<div>
+    <label for="bgColor"> Background Color:</label>
+    <input type="text" class="form-control js-bg-color" id="bgColor">
+</div>
+<div>
+    <label for="textColor">Text color:</label>
+    <input type="text" class="form-control js-text-color" id="bgColor">
+</div>
+<div>
+    <label for="FontSize">Font Size:</label>
+    <input type="number" class="form-control js-font-size" id="bgColor">
+</div>
+    <script>
+    var bgColor = document.querySelector(".js-bg-color")
+    var textColor = document.querySelector(".js-text-color")
+    var fontSize = document.querySelector(".js-font-size")
+    var body = document.querySelector("body")
+
+    bgColor.addEventListener('keyup' , function(event) {
+        body.style.backgroundColor = event.target.value
+    })
+    textColor.addEventListener('keyup' , function(event) {
+        body.style.color = event.target.value
+    })
+
+    fontSize.addEventListener('keyup' , function(event) {
+        body.style.fontSize = event.target.value +'px'
+    })
+    </script>
+</body>
+</html>

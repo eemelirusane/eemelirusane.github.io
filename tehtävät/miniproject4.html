@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 4</title>
+</head>
+<body>
+    <h1>Miniproject 4</h1>
+<p> tip calculator</p>
+    <script>
+        function tip (totalAmount, tip=10, returnTipOnly=false) {
+    tip = tip / 100; //10 -> 0.10
+    var tipAmount = totalAmount * tip
+    totalAmount = totalAmount + tipAmount
+    if(returnTipOnly){
+        return tipAmount
+    } 
+        return totalAmount
+    
+    
+    return totalAmount
+        }
+        var totalBill = tip (25,10);
+        console.log(totalBill)
+
+        var totalTip = tip (25, 10, true);
+        console.log(totalTip)
+    </script>
+</body>
+</html>
