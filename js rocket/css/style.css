@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+
+.cool{
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: background-color 2s;
+}
+
+.cool.red{
+    visibility: visible;
+    background-color: red;
+
+}
