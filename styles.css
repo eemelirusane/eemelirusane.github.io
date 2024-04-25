@@ -10,6 +10,24 @@ background-image: url("img/taustakuva.jpg")
 	background-color: maroon;
 }
 
+.navbar-light .navbar-nav .nav-link  {
+	color: orange;
+	font-size: larger;
+}
+
+.navbar-light .navbar-brand  {
+	color: orange;
+
+}
+
+
+
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%283, 159, 123, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/*
 .links ul{
 	width:fit-content;
 	height: 100%;
@@ -27,7 +45,9 @@ background-image: url("img/taustakuva.jpg")
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 60px;
 	
+	
 }
+*/
 p {
 	color: white;
 	font-size: 25px;
@@ -103,15 +123,6 @@ dl{
 	font-size:150%;
 	font-weight: normal;
 	font-family:Arial, Helvetica, sans-serif;
-}
-
-a{
-color: orange;
-text-decoration: underline;
-}
-
-a:hover, a:focus{
-color: yellow
 }
 
 
