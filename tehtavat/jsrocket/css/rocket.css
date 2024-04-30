@@ -1,5 +1,5 @@
-.left {
-    background-color: aquamarine;
+.left{
+    background-color: deeppink;
     position: fixed;
     width: 50%;
     height: 100%;
@@ -7,7 +7,7 @@
     left: 0%
 }
 
-.right {
+.right{
     background-color: aliceblue;
     position: fixed;
     width: 50%;
@@ -16,8 +16,8 @@
     right: 0%;
 }
 
-.ground {
-    background-color: green;
+.ground{
+    background-color: purple;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -28,15 +28,31 @@
     position: absolute;
     left: 50%;
     bottom: 20px;
-    width: 20px;
-    height: 100px;
-    background-color: blue;
-    transition: bottom 5000ms;
+    width: 60px;
+    height: 300px;
+    background-color: pink;
+    transition: bottom 3000ms;
 }
 .rocket.flying{
         bottom: 1000px;
 }
+body.body-state3 .rocket{
+    bottom: 1000px;
+}
 
+.state1,
+.state2,
+.state3,
+.state4,
+.state5{
+    display: none;
+}
+
+body.body-state1 .state1{display: block;}
+body.body-state2 .state2{display: block;}
+body.body-state3 .state3{display: block;}
+body.body-state4 .state4{display: block;}
+body.body-state5 .state5{display: block;}
 a{
 
 }
