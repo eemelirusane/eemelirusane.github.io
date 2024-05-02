@@ -19,7 +19,9 @@ background-image: url("img/taustakuva.jpg")
 	color: orange;
 
 }
-
+.navbar-toggler{
+	background-color: orange;
+}
 
 
 
