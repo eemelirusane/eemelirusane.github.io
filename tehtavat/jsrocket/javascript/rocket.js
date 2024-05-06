@@ -1,3 +1,4 @@
+//timer koodi//
 var timer= null;
 var countdownNumber = 10;
 
@@ -8,20 +9,20 @@ var changeState = function (state) {
  document.getElementById('countdown').innerHTML = countdownNumber;
 
     if (state == 2) {
-        //document.getElementById('countdown')//
+        //onnistumisen todennäköisyys//
         timer = setInterval(function () {
             countdownNumber = countdownNumber
             -1;
             document.getElementById('countdown').innerHTML = countdownNumber;
             if (countdownNumber > 4 && countdownNumber <= 7
             ){
-                //be nervous
+                //nervous asia//
                 document.getElementById('nervous').className = 'nervous show';
             } else{
                 document.getElementById('nervous').className = 'nervous';
             }
             if (countdownNumber ==3) {
-                //cant-wait
+                //cant-wait osio//
                 document.getElementById('cant-wait').className = 'cant-wait show';
             } else{
                 document.getElementById('cant-wait').className = 'cant-wait';
@@ -33,7 +34,7 @@ var changeState = function (state) {
         }, 500);
     }   else if (state ==3) {
         var success = setTimeout(function()
-    {
+    { //consolissa näkyvä osuus//
     var randomNumber = Math.round (Math.random()*10);
     console.log('randomNumber:', randomNumber)
     if (randomNumber > 5) {
